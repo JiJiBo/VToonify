@@ -13,7 +13,7 @@ from model.bisenet.model import BiSeNet
 from model.encoder.align_all_parallel import align_face
 from util import save_image, load_image, visualize, load_psp_standalone, get_video_crop_parameter, tensor2cv2
 
-
+# C:\Users\Nas\AppData\Local\torch_extensions\torch_extensions 如果卡住，删掉这里
 class TestOptions():
     def __init__(self):
 
